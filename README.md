@@ -18,7 +18,7 @@ ETHEReact is a full-stack DApp, showcasing e-commerce capabilities without relyi
   cd backend
   testrpc -l 9000000000 -p 8484
   ```
-  This is will navigate to the 'backend' directory and instantiate a testrpc server with the specified gas limit and port. Make sure to leave the server running for Ethereum to be operational on your local development machine.
+  This will navigate to the 'backend' directory and instantiate a testrpc server with the specified gas limit and port. Make sure to leave the server running for Ethereum to be operational on your local development machine.
 
 *  Change directory to 'backend' and compile the Solidity contracts, then migrate them to your Ethereum server. Depending on your setup, you might use Truffle commands like truffle compile and truffle migrate to achieve this."
     * `truffle compile` (On Windows 10, `truffle.cmd compile`)
